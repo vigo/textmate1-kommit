@@ -8,7 +8,8 @@ TextMate bundle for [Kommit][01]
     git clone https://github.com/vigo/textmate1-kommit Kommit
     osascript -e 'tell app "TextMate" to reload bundles'
 
-Default keys are `alt + cmd + K`
+Default keys are `alt + cmd + K`. Don’t forget to add Kommit’s path
+to your `PATH` variable under TextMate > Preferences > Shell Variables
 
 ## Screens
 
