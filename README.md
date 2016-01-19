@@ -10,6 +10,12 @@ TextMate bundle for [Kommit][01]
 
 Default keys are `alt + cmd + K`
 
+## Screens
+
+![Image 1](https://github.com/vigo/textmate1-kommit/raw/master/Screenshots/kommit-options.png)
+
+![Image 2](https://github.com/vigo/textmate1-kommit/raw/master/Screenshots/kommit-input.png)
+
 ## Contribute
 
 If you are still using **TextMate1** like me, please do not hesitate to contribute
