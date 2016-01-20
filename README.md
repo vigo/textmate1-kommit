@@ -11,6 +11,17 @@ TextMate bundle for [Kommit][01]
 Default keys are `alt + cmd + K`. Don’t forget to add Kommit’s path
 to your `PATH` variable under TextMate > Preferences > Shell Variables
 
+## Features
+
+* Add message
+* List messages
+* Edit messages
+* Check if hook installed ?
+* Install hook
+* Remove hook
+
+All items run with `alt + cmd + K`.
+
 ## Screens
 
 ![Image 1](https://github.com/vigo/textmate1-kommit/raw/master/Screenshots/kommit-options.png)

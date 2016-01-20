@@ -2,12 +2,51 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>7524BB10-2236-4F96-A656-245405FF92AD</string>
+			<string>------------------------------------</string>
+			<string>172319B4-DF79-4A4F-94B9-F5C215E0DA21</string>
+			<string>------------------------------------</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>172319B4-DF79-4A4F-94B9-F5C215E0DA21</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>C2C462C2-766C-4809-87F4-F30B0F45FBC9</string>
+					<string>3016AB85-9BC8-44B7-8EB4-AAA7ADCA97E1</string>
+					<string>EE05A926-F614-466F-9FD9-9F135A03A183</string>
+				</array>
+				<key>name</key>
+				<string>Kommit - Setup</string>
+			</dict>
+			<key>7524BB10-2236-4F96-A656-245405FF92AD</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>DFC7052A-5807-480E-AF3D-E89A8AC789D9</string>
+					<string>CA589C15-F281-4CEC-AD25-5F7C1EADB8B6</string>
+					<string>4C6957FA-1785-49EF-B132-1C988A8962DE</string>
+				</array>
+				<key>name</key>
+				<string>Kommit - Messages</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Kommit</string>
 	<key>ordering</key>
 	<array>
 		<string>DFC7052A-5807-480E-AF3D-E89A8AC789D9</string>
 		<string>4C6957FA-1785-49EF-B132-1C988A8962DE</string>
+		<string>CA589C15-F281-4CEC-AD25-5F7C1EADB8B6</string>
+		<string>C2C462C2-766C-4809-87F4-F30B0F45FBC9</string>
+		<string>3016AB85-9BC8-44B7-8EB4-AAA7ADCA97E1</string>
+		<string>EE05A926-F614-466F-9FD9-9F135A03A183</string>
 	</array>
 	<key>uuid</key>
 	<string>B581E10F-887E-426E-BCC2-4EFD09ADD9FF</string>
