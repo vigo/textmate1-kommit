@@ -39,6 +39,12 @@ this mini bundle :)
 1. `push` your `branch` (`git push origin my-features`)
 1. Than create a new **Pull Request**!
 
+## Contributers
 
+* [Uğur "vigo" Özyılmazel](https://github.com/vigo) - Creator, maintainer
+
+## License
+
+This project licensed under MIT.
 
 [01]: https://github.com/bilgi-webteam/kommit
