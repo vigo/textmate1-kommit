@@ -20,9 +20,18 @@ error_box() {
         --float)
 }
 
-is_kommit_available() {
+export KOMMIT_COMMAND
+which_kommit_command_available() {
     if command -v kommit > /dev/null 2>&1; then
-        return 0
+        KOMMIT_COMMAND="kommit"
+    elif command -v git-kommit > /dev/null 2>&1; then
+        KOMMIT_COMMAND="git-kommit"
+    fi
+}
+
+is_kommit_available() {
+    if command -v kommit > /dev/null 2>&1 || command -v git-kommit > /dev/null 2>&1; then
+        which_kommit_command_available && return 0
     else
         error_box "Please install Kommit from GitHub." \
                   "Download at https://github.com/bilgi-webteam/kommit" &&

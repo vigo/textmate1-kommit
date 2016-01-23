@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string># this makes
+# kommit -m "Message"
+bash "$TM_BUNDLE_SUPPORT/kommit-add-timestamped-message.sh"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@k</string>
+	<key>name</key>
+	<string>Add timestamped message</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>9A8120BE-6A8F-4F38-BA38-DDE6018BF99A</string>
+</dict>
+</plist>

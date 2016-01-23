@@ -12,7 +12,7 @@ input_box() {
         --button1 "Add" --button2 "Cancel")
     [[ $(head -n1 <<<"$res") == "2" ]] && exit_discard
     res=$(tail -n1 <<<"$res")
-    $KOMMIT_COMMAND -m "$res"
+    $KOMMIT_COMMAND -t "$res"
 }
 
 if is_kommit_available && in_git_repo; then

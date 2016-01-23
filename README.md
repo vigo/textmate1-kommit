@@ -14,6 +14,7 @@ to your `PATH` variable under TextMate > Preferences > Shell Variables
 ## Features
 
 * Add message
+* Add timestamped message
 * List messages
 * Edit messages
 * Check if hook installed ?

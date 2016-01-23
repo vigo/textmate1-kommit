@@ -7,5 +7,5 @@ set -e
 source "$TM_BUNDLE_SUPPORT/common.sh"
 
 if is_kommit_available && in_git_repo; then
-    kommit -i
+    $KOMMIT_COMMAND -i
 fi
